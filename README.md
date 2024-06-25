@@ -2,7 +2,11 @@
 
 ## Project Overview
 This project aims to predict daily product demand using historical sales data and optimize production scheduling based on these predictions using machine learning and optimization techniques.
+## Introduction
+The project consists of two main parts:
 
+1. Prediction Problem: Forecast daily demand for a product using historical sales data.
+2. Optimization Problem: Optimize the production schedule to minimize total production cost while meeting the predicted demand and adhering to operational constraints.
 ## Steps
 1. **Data Preparation**
     - Load historical sales data.
@@ -28,10 +32,11 @@ This project aims to predict daily product demand using historical sales data an
 Install dependencies:
 ```bash
 pip install pandas numpy scikit-learn gurobipy
-
+```
 ## Usage
 
 ### Clone the Repository:
 ```bash
-git clone https://github.com/your-username/predictive-modeling-optimization.git
+git clone https://github.com/akhil0203/prediction-and-optimisation.git
 cd predictive-modeling-optimization
+```
